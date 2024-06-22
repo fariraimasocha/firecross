@@ -3,7 +3,7 @@
         <h1 class="font-light text-4xl">
             <span class="font-bold text-blue-950">Fire</span>cross
         </h1>
-        <div class="flex space-x-7">
+        <div class="flex space-x-12 text-lg font-light hover:font-semibold transition">
             <a href="/">Shop</a>
             <a href="/">Traffic</a>
             <a href="/">Model</a>
