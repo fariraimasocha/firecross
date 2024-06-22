@@ -4,7 +4,7 @@
             <h1 class="font-light text-4xl">
                 <span class="font-bold text-blue-950">Fire</span>cross
             </h1>
-            <p class="text-lg font-thin mt-10">Luxury Rides</p>
+            <p class="text-lg font-thin mt-2">Luxury Rides</p>
         </div>
 
         <div class="flex space-x-12 text-lg font-light hover:font-semibold transition">
