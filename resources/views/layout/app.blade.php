@@ -6,7 +6,7 @@
     <title>Firecross</title>
     @vite('resources/css/app.css')
 </head>
-<body class="relative">
+<body class="bg-cover" style="background-image: url('{{ asset('images/bmw.jpg') }}')">
 
 
 <x-topnav></x-topnav>
@@ -16,5 +16,6 @@
 </main>
 
 <x-footer></x-footer>
+
 </body>
 </html>
