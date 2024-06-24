@@ -6,7 +6,9 @@
     <title>Firecross</title>
     @vite('resources/css/app.css')
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="relative">
+
+
 <x-topnav></x-topnav>
 
 <main class="flex-grow">

@@ -7,7 +7,7 @@
             <p class="text-lg font-thin mt-2">Luxury Rides</p>
         </div>
 
-        <div class="flex space-x-12 text-lg font-light hover:font-semibold transition">
+        <div class="flex space-x-12 font-light hover:font-semibold transition">
             <a href="/">Shop</a>
             <a href="/">Traffic</a>
             <a href="/">Model</a>
