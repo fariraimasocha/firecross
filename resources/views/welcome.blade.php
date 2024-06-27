@@ -8,8 +8,8 @@
             <p class="text-center mt-1 font-light">After The. Discount</p>
         </div>
         <div class="justify-center mx-auto flex space-x-3 mt-96">
-            <button class="w-2/12 h-9 rounded bg-white text-black">Order Now</button>
-            <button class="w-2/12 h-9 rounded bg-gray-500 text-white">Demo Drive</button>
+            <button class="w-2/12 h-9 rounded bg-white text-black hover:bg-gray-500 transition hover:text-white">Shop Now</button>
+            <button class="w-2/12 h-9 rounded bg-gray-500 text-white hover:bg-white transition hover:text-black">Demo Drive</button>
         </div>
     </div>
 @endsection
