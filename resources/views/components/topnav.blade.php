@@ -7,10 +7,10 @@
         </div>
 
         <div class="flex space-x-10">
-            <a href="/">Vehicles</a>
-            <a href="/">Discover</a>
-            <a href="/">Shop</a>
-            <a href="/">Trade</a>
+            <a href="/" class="hover:font-bold hover:text-white">Vehicles</a>
+            <a href="/" class="hover:font-bold hover:text-white">Discover</a>
+            <a href="/" class="hover:font-bold hover:text-white">Shop</a>
+            <a href="/" class="hover:font-bold hover:text-white">Trade</a>
         </div>
         <a href="/">
             <button class="bg-blue-950 px-4 py-2 rounded-lg text-white">Join for 0$</button>
