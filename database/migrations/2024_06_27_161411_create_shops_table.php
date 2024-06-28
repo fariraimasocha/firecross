@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('shops', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('brand');
+            $table->string('description');
+            $table->string('image');
+            $table->string('price');
             $table->timestamps();
         });
     }
