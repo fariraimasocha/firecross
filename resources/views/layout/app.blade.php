@@ -6,7 +6,7 @@
     <title>Firecross</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-cover" style="background-image: url('{{ asset('images/ford.jpg') }}')">
+<body class="bg-cover" style="background-image: url('{{ asset('images/suv.jpg') }}')">
 
 
 <x-topnav></x-topnav>

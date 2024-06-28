@@ -1,9 +1,9 @@
 <nav class="h-20">
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
-            <h1 class="font-semibold text-3xl">
-                <span class="text-white">F</span><span class="text-white-950 font-sans">ire</span>cross
-            </h1>
+            <a href="#" class="inline-block py-4 md:py-0">
+                <span class="p-1 text-xl font-black leading-none text-gray-900">firecross.</span>
+            </a>
         </div>
 
         <div class="flex space-x-10">
