@@ -13,7 +13,7 @@
             <a href="/" class="hover:font-bold hover:text-white transition">Trade</a>
         </div>
         <div>
-            <button class="bg-blue-950 px-4 py-2 rounded-lg text-white">Join for 0$</button>
+            <i class="text-gray-500 hover:text-gray-700 fas fa-coffee"></i>
         </div>
     </div>
 </nav>
