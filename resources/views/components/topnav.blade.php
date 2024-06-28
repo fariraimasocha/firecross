@@ -12,8 +12,18 @@
             <a href="/" class="hover:font-bold hover:text-white transition">Shop</a>
             <a href="/" class="hover:font-bold hover:text-white transition">Trade</a>
         </div>
-        <div>
-            <i class="text-gray-500 hover:text-gray-700 fas fa-coffee"></i>
+        <div class="flex space-x-5">
+            <a href="/">
+                <i class="text-gray-500 hover:text-gray-700 fa-brands fa-twitter text-lg"></i>
+            </a>
+            <a href="/">
+                <i class="text-gray-500 hover:text-gray-700 fa-brands fa-facebook text-lg"></i>
+            </a>
+            <a href="/">
+                <i class="text-gray-500 hover:text-gray-700 fa-solid fa-globe text-lg"></i></a>
+            <a href="/">
+                <i class="text-gray-500 hover:text-gray-700 fa-brands fa-instagram text-lg"></i>
+            </a>
         </div>
     </div>
 </nav>
