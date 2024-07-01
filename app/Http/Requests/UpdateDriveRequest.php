@@ -13,7 +13,7 @@ class UpdateDriveRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,11 @@ class UpdateDriveRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => 'required',
+            'age' => 'required',
+            'car' => 'required',
+            'date' => 'required',
+            'location' => 'required'
         ];
     }
 }

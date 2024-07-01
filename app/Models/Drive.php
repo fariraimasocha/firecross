@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Drive extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'age',
+        'car',
+        'date',
+        'location'
+    ];
 }

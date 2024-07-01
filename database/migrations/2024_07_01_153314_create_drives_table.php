@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('drives', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('age');
+            $table->string('car');
+            $table->string('date');
+            $table->string('location');
             $table->timestamps();
         });
     }
