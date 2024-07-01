@@ -1,7 +1,7 @@
 <nav class="h-20">
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
-            <a href="# hover:text-xl transition" class="inline-block py-4 md:py-0">
+            <a href="#" class="inline-block py-4 md:py-0">
                 <span class="p-1 text-xl font-black leading-none text-gray-900">firecross.</span>
             </a>
         </div>
@@ -10,7 +10,7 @@
             <a href="/" class="hover:font-bold hover:text-white transition">Vehicles</a>
             <a href="/" class="hover:font-bold hover:text-white transition">Discover</a>
             <a href="/" class="hover:font-bold hover:text-white transition">Shop</a>
-            <a href="/" class="hover:font-bold hover:text-white transition">Drive</a>
+            <a href="{{route('drive.index')}}" class="hover:font-bold hover:text-white transition">Drive</a>
         </div>
         <div class="flex space-x-5">
             <a href="/">
