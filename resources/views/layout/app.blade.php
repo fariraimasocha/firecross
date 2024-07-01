@@ -6,8 +6,7 @@
     <title>Firecross</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-cover" style="background-image: url('{{ asset('images/suv.jpg') }}')">
-
+<body>
 
 <x-topnav></x-topnav>
 
@@ -15,7 +14,7 @@
     @yield('content')
 </main>
 
-{{--<x-footer></x-footer>--}}
+<x-footer></x-footer>
 
 </body>
 </html>
