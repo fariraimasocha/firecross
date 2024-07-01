@@ -5,34 +5,38 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreDriveRequest;
 use App\Http\Requests\UpdateDriveRequest;
 use App\Models\Drive;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+
 
 class DriveController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function index()
     {
-        //
+        return view('drive.index');
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function create()
     {
-        //
+        return view('drive.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreDriveRequest  $request
-     * @return \Illuminate\Http\Response
+     * @param StoreDriveRequest $request
+     * @return void
      */
     public function store(StoreDriveRequest $request)
     {
@@ -42,8 +46,8 @@ class DriveController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Drive  $drive
-     * @return \Illuminate\Http\Response
+     * @param Drive $drive
+     * @return void
      */
     public function show(Drive $drive)
     {
@@ -53,8 +57,8 @@ class DriveController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Drive  $drive
-     * @return \Illuminate\Http\Response
+     * @param Drive $drive
+     * @return void
      */
     public function edit(Drive $drive)
     {
@@ -64,9 +68,9 @@ class DriveController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateDriveRequest  $request
-     * @param  \App\Models\Drive  $drive
-     * @return \Illuminate\Http\Response
+     * @param UpdateDriveRequest $request
+     * @param Drive $drive
+     * @return void
      */
     public function update(UpdateDriveRequest $request, Drive $drive)
     {
@@ -76,8 +80,8 @@ class DriveController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Drive  $drive
-     * @return \Illuminate\Http\Response
+     * @param Drive $drive
+     * @return void
      */
     public function destroy(Drive $drive)
     {
