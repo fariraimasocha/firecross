@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\DriveController;
 use App\Http\Controllers\ShopController;
+use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +21,5 @@ Route::get('/', function () {
 });
 
 Route::resource('/shop', ShopController::class);
+Route::resource('/drive', DriveController::class);
+Route::resource('/vehicles', VehicleController::class);
