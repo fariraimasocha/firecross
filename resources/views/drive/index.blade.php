@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <section class="w-full px-8 py-10 bg-gray-100 xl:px-8">
+    <section class="w-full px-8 py-10 bg-gray-100 xl:px-8 h-screen">
         <div class="max-w-5xl mx-auto">
             <div class="flex flex-col items-center md:flex-row">
 
@@ -13,9 +13,6 @@
                         Get Behind the <span class="w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 lg:inline tails-selected-element" contenteditable="true">
                             Wheel of Your Dream Car.</span>
                     </h2>
-
-
-
 
                     <p class="text-xl text-gray-600 md:pr-16">
                         Our seamless booking process and expert support

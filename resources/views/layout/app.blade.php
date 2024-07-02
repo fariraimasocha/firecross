@@ -6,7 +6,7 @@
     <title>Firecross</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
 
 <x-topnav></x-topnav>
 
@@ -14,7 +14,7 @@
     @yield('content')
 </main>
 
-<x-footer></x-footer>
+{{--<x-footer></x-footer>--}}
 
 </body>
 </html>
