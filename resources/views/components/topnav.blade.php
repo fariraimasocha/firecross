@@ -7,10 +7,10 @@
         </div>
 
         <div class="flex space-x-10">
-            <a href="/" class="hover:font-bold hover:text-white transition">Vehicles</a>
-            <a href="/" class="hover:font-bold hover:text-white transition">Discover</a>
-            <a href="/" class="hover:font-bold hover:text-white transition">Shop</a>
-            <a href="{{route('drive.index')}}" class="hover:font-bold hover:text-white transition">Drive</a>
+            <a href="/" class="hover:font-bold hover:text-gray-900 transition">Vehicles</a>
+            <a href="/" class="hover:font-bold hover:text-gray-900 transition">Discover</a>
+            <a href="/" class="hover:font-bold hover:text-gray-900 transition">Shop</a>
+            <a href="{{route('drive.index')}}" class="hover:font-bold hover:text-gray-900 transition">Drive</a>
         </div>
         <div class="flex space-x-5">
             <a href="/">
