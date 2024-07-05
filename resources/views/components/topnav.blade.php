@@ -1,7 +1,7 @@
 <nav class="h-20">
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
-            <a href="#" class="inline-block py-4 md:py-0">
+            <a href="/" class="inline-block py-4 md:py-0">
                 <span class="p-1 text-xl font-black leading-none text-gray-900">Firecross.</span>
             </a>
         </div>
