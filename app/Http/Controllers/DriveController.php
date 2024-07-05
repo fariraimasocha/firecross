@@ -8,6 +8,7 @@ use App\Models\Drive;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 
 
 class DriveController extends Controller
@@ -36,10 +37,14 @@ class DriveController extends Controller
      * Store a newly created resource in storage.
      *
      * @param StoreDriveRequest $request
-     * @return void
+     * @return RedirectResponse
      */
     public function store(StoreDriveRequest $request)
     {
+        Drive::create($request->validated());
+        toastr()->success('Data has been saved successfully!');
+        return redirect()->route('drive.create');
+
 
     }
 
@@ -81,10 +86,13 @@ class DriveController extends Controller
      * Remove the specified resource from storage.
      *
      * @param Drive $drive
-     * @return void
+     * @return RedirectResponse
      */
     public function destroy(Drive $drive)
     {
-        //
+        $drive->delete();
+        toastr()->warning('Are you sure you want to delete ?');
+        return redirect()->route('drive.create');
+
     }
 }
