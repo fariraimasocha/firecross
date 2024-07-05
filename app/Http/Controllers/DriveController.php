@@ -19,7 +19,7 @@ class DriveController extends Controller
      */
     public function index()
     {
-        return view('drive.index');
+        return view('drive.create');
     }
 
     /**
@@ -40,7 +40,7 @@ class DriveController extends Controller
      */
     public function store(StoreDriveRequest $request)
     {
-        //
+
     }
 
     /**
