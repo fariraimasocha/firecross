@@ -1,4 +1,4 @@
-<nav class="h-20">
+<nav class="h-20 bg-gray-100">
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
             <a href="/" class="inline-block py-4 md:py-0">
