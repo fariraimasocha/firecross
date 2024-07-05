@@ -7,7 +7,7 @@
         </div>
         <div class="flex space-x-10 font-medium">
             <a href="/" class="hover:font-bold hover:text-gray-900 transition">Vehicles</a>
-            <a href="/" class="hover:font-bold hover:text-gray-900 transition">Discover</a>
+            <a href="{{route('discover.index')}}" class="hover:font-bold hover:text-gray-900 transition">Discover</a>
             <a href="/" class="hover:font-bold hover:text-gray-900 transition">Shop</a>
             <a href="{{route('drive.index')}}" class="hover:font-bold hover:text-gray-900 transition">Drive</a>
 

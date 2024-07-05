@@ -27,7 +27,7 @@ class StoreDriveRequest extends FormRequest
             'name' => 'required',
             'age' => 'required',
             'car' => 'required',
-            'date' => 'required | unique',
+            'date' => 'required',
             'location' => 'required'
         ];
     }

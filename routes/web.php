@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DiscoverController;
 use App\Http\Controllers\DriveController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\VehicleController;
@@ -23,3 +24,4 @@ Route::get('/', function () {
 Route::resource('/shop', ShopController::class);
 Route::resource('/drive', DriveController::class);
 Route::resource('/vehicles', VehicleController::class);
+Route::resource('/discover', DiscoverController::class);
