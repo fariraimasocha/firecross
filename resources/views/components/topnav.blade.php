@@ -2,11 +2,10 @@
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
             <a href="/" class="inline-block py-4 md:py-0">
-                <span class="p-1 text-xl font-black leading-none text-gray-900">Firecross.</span>
+                <span class="p-1 text-2xl leading-none text-gray-900 font-medium">Firecross</span>
             </a>
         </div>
-
-        <div class="flex space-x-10">
+        <div class="flex space-x-10 font-medium">
             <a href="/" class="hover:font-bold hover:text-gray-900 transition">Vehicles</a>
             <a href="/" class="hover:font-bold hover:text-gray-900 transition">Discover</a>
             <a href="/" class="hover:font-bold hover:text-gray-900 transition">Shop</a>
