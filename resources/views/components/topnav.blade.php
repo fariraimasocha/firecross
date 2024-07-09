@@ -13,8 +13,14 @@
 
 
 
+
         </div>
         <div class="flex space-x-5">
+            <a href="/">
+                <button class="bg-blue-700 text-white rounded-xl px-4 py-1">
+                    Sign Up
+                </button>
+            </a>
             <a href="/">
                 <i class="text-gray-500 hover:text-gray-700 fa-brands fa-twitter text-lg hover:text-xl transition"></i>
             </a>
