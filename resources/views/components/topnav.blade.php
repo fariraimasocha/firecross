@@ -27,9 +27,6 @@
             <a href="/">
                 <i class="text-gray-500 hover:text-gray-700 fa-brands fa-instagram text-lg hover:text-xl transition"></i>
             </a>
-            <a href="/">
-                <i class="text-gray-500 hover:text-gray-700 hover:text-3xl fa fa-search text-3xl transition"></i>
-            </a>
         </div>
     </div>
 </nav>
