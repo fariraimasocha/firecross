@@ -2,10 +2,10 @@
     <div class="container mx-auto flex items-center justify-between h-full">
         <div class="flex space-x-3">
             <a href="/" class="inline-block py-4 md:py-0">
-                <span class="p-1 text-2xl leading-none text-gray-900 font-medium">Firecross</span>
+                <span class="p-1 text-2xl leading-none text-gray-900 font-mono  text-clip">Firecross</span>
             </a>
         </div>
-        <div class="flex space-x-10 font-medium">
+        <div class="flex space-x-10 font-mono">
             <a href="{{route('discover.index')}}" class="hover:font-bold hover:text-gray-900 transition">Catalogue</a>
             <a href="{{route('drive.index')}}" class="hover:font-bold hover:text-gray-900 transition">Drive</a>
             <a href="{{route('discover.index')}}" class="hover:font-bold hover:text-gray-900 transition">Seller</a>
@@ -16,11 +16,6 @@
 
         </div>
         <div class="flex space-x-5">
-            <a href="/">
-                <button class="bg-blue-700 text-white rounded-xl px-4 py-1">
-                    Sign Up
-                </button>
-            </a>
             <a href="/">
                 <i class="text-gray-500 hover:text-gray-700 fa-brands fa-twitter text-lg hover:text-xl transition"></i>
             </a>
@@ -33,7 +28,7 @@
                 <i class="text-gray-500 hover:text-gray-700 fa-brands fa-instagram text-lg hover:text-xl transition"></i>
             </a>
             <a href="/">
-                <i class="text-gray-500 hover:text-gray-700 fa fa-search text-lg hover:text-xl transition"></i>
+                <i class="text-gray-500 hover:text-gray-700 hover:text-3xl fa fa-search text-3xl transition"></i>
             </a>
         </div>
     </div>
