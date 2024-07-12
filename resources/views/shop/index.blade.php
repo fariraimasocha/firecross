@@ -14,10 +14,10 @@
             <div class="flex justify-between mt-10">
                 <div class="rounded-lg w-3/12 bg-gray-100 py-3 px-3">
                     <img src="{{asset('images/bmw.jpg')}}" alt="bmw">
-                    <h1 class="text-2xl font-semibold py-2">BMW M3</h1>
-                    <p class="font-medium text-gray-500">The fastest bmw so far that can cruise at high speeds
-                        while providing comfort that is better than most
-                        supercars out there</p>
+                    <h1 class="text-2xl font-semibold mt-2">BMW M3</h1>
+                    <p class="font-medium text-gray-500 mt-2">75KWh 320</p>
+                    <p class="font-medium text-black mt-2 border-b-2">2020 Plug-in-Hybrid 30,555miles</p>
+                    <p class="font-medium text-black mt-2 text-lg font-semibold">$45,555</p>
                     <button class="w-32 h-10 bg-blue-700 text-white rounded mt-2 hover:bg-gray-900 transition">Buy</button>
                 </div>
 
