@@ -10,7 +10,6 @@
                 </a>
             </div>
 
-
             <div class="flex justify-between mt-10">
                 <div class="rounded-lg w-3/12 bg-gray-100 shadow-lg p-6">
                     <img class="rounded-t-lg w-full" src="{{asset('images/bmw.jpg')}}" alt="BMW M3">
@@ -23,7 +22,6 @@
                     </button>
                 </div>
             </div>
-
 
         </div>
     </div>

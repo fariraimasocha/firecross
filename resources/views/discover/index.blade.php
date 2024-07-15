@@ -4,7 +4,7 @@
     <div class="container mx-auto px-6 py-5 text-left md:max-w-none bg-cover min-h-screen">
         <div class="flex justify-between items-center mb-5">
             <h1 class="text-3xl font-semibold leading-none text-gray-900 lg:text-5xl xl:text-6xl">
-                <a href="#">Our <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-500">Catalogue</span></a>
+                <a href="/">Our <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-500">Catalogue</span></a>
             </h1>
             <a href="/" class="flex items-center justify-center text-gray-500 hover:text-gray-700 transition">
                 <i class="fa fa-search text-3xl"></i>
