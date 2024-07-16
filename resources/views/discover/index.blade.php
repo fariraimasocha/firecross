@@ -11,22 +11,26 @@
             </a>
         </div>
 
-        <div class="flex justify-between">
+        <div class="flex justify-between mt-10">
             <div class="rounded-lg w-3/12 bg-gray-100 shadow-lg p-6">
                 <img class="rounded-t-lg w-full" src="{{asset('images/bmw.jpg')}}" alt="BMW M3">
-                <h1 class="text-2xl font-bold text-gray-800 mt-4">BMW M3</h1>
+                <h2 class="text-2xl font-bold text-gray-800 mt-4">BMW M3</h2>
                 <p class="font-medium text-gray-600 mt-2">
                     The BMW M3 is the fastest BMW so far, capable of cruising at high speeds while providing exceptional comfort. Here are some key specs:
                 </p>
                 <ul class="list-disc list-inside mt-2 text-gray-600">
-                    <li><strong>Top Speed:</strong> 180 mph</li>
-                    <li><strong>Horsepower:</strong> 503 hp</li>
-                    <li><strong>0-60 mph:</strong> 3.8 seconds</li>
-                    <li><strong>Engine:</strong> 3.0L Inline-6 Twin-Turbo</li>
+                    <li class="flex items-center"><i class="fa fa-tachometer-alt mr-2"></i><strong>Top Speed:</strong> 180 mph</li>
+                    <li class="flex items-center mt-2"><i class="fa fa-horse-head mr-2"></i><strong>Horsepower:</strong> 503 hp</li>
+                    <li class="flex items-center mt-2"><i class="fa fa-stopwatch mr-2"></i><strong>0-60 mph:</strong> 3.8 seconds</li>
+                    <li class="flex items-center mt-2"><i class="fa fa-cogs mr-2"></i><strong>Engine:</strong> 3.0L Inline-6 Twin-Turbo</li>
                 </ul>
-                <button class="w-full h-10 bg-blue-600 text-white rounded mt-4 hover:bg-blue-700 transition duration-300">Read More</button>
+                <button class="w-full h-10 bg-blue-600 text-white rounded mt-4 hover:bg-blue-700 transition duration-300 flex items-center justify-center">
+                    <i class="fa fa-shopping-cart mr-2"></i>Read More
+                </button>
             </div>
         </div>
+
+
     </div>
 
 @endsection
