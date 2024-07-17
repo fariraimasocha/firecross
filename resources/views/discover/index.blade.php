@@ -11,14 +11,14 @@
             </a>
         </div>
 
-        <div class="flex justify-between mt-10">
+        <div class="flex justify-between mt-5">
             <div class="rounded-lg w-3/12 bg-gray-100 shadow-lg p-6">
                 <img class="rounded-t-lg w-full" src="{{asset('images/bmw.jpg')}}" alt="BMW M3">
                 <h2 class="text-2xl font-bold text-gray-800 mt-4">BMW M3</h2>
-                <p class="font-medium text-gray-600 mt-2">
+                <p class="font-medium text-gray-600 mt-2 border-b-2">
                     The BMW M3 is the fastest BMW so far, capable of cruising at high speeds while providing exceptional comfort. Here are some key specs:
                 </p>
-                <ul class="list-disc list-inside mt-2 text-gray-600">
+                <ul class="list-disc list-inside mt-3 text-gray-600">
                     <li class="flex items-center"><i class="fa fa-tachometer-alt mr-2"></i><strong>Top Speed:</strong> 180 mph</li>
                     <li class="flex items-center mt-2"><i class="fa fa-horse-head mr-2"></i><strong>Horsepower:</strong> 503 hp</li>
                     <li class="flex items-center mt-2"><i class="fa fa-stopwatch mr-2"></i><strong>0-60 mph:</strong> 3.8 seconds</li>
